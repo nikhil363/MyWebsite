@@ -1,0 +1,525 @@
+header.intro, footer.intro , nav{
+    display:block;
+}
+html.intro
+{
+    background-color: #000000;
+}
+
+body.intro h1 {
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    width: 40%;
+    padding-left: 1.5% ;
+    text-align: center;
+}
+body.intro nav {
+    text-align-last:center;
+    padding: 3.5% 0 0 5%;
+}
+
+body.intro nav ul {
+    border: solid #ffffff;
+    width: 35%;
+    padding: 0;
+    text-align: center;
+    border-radius: 45px;
+}
+    body.intro nav a {
+        text-decoration: none;
+    }
+    body.intro nav a:hover {
+        opacity: 1;
+    }
+body.intro h2 {
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 26px;
+    transition: all 0.5s ease-out;
+}
+
+    body.intro h2:hover {
+        color: #d7d2d2;
+        transform: scale(1.2)
+    }
+
+    body.intro {
+        padding: 8% 0 0 37%;
+    }
+body.intro li {
+    display: inline-block;
+    color: none;
+}
+body.intro i {
+    color: #ffffff;
+    font-size: 35px;
+}
+footer.intro{
+    position: relative;
+    padding-top: 25%;
+}
+footer.intro ul {
+    padding: 0;
+}
+footer.intro li {
+    text-align-last: center;
+    padding-right: 6%;
+}
+    footer.intro li {
+        transition: all 0.5s ease-out;
+    }
+        footer.intro li:hover {
+            opacity: 1;
+            transform: translateY(6px);
+        }
+    footer.intro img {
+        width: 15%;
+        position: absolute;
+        left: 85.7%;
+        top: 68%;
+    }
+
+/*~homepage~*/
+header, footer, nav, div {
+    display: block;
+}
+
+
+
+body.homepage {
+    margin:0;
+    width: 100%;
+    position:relative;
+    background-color:rgba(255, 255, 255, 0.5);
+      
+}
+
+
+ div.content{
+    padding-top:0.1%;
+    padding-bottom:0.1%;
+    width:100%;
+    background-color:rgba(22, 208, 208, 0.50);
+}
+
+nav ul {
+    padding-left: 0;
+    width: 100%;
+    border-bottom:solid #808080;
+    padding-top:1%;
+    padding-bottom:2%;
+}
+nav {
+    padding-bottom:1%;
+}
+
+h2,h1 {
+    font-family: 'Bree Serif', serif;
+    padding-left:1%;
+}
+
+ h1{
+     font-size:35px;
+ }
+
+p {
+    font-family: 'Karla', sans-serif;
+    padding-left:1%;
+}
+
+ .homepage a {
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    color: #000000;
+    margin-right:2%;
+    display:inline-block;
+}
+
+body.homepage nav {
+    width: 100%;
+        
+}
+
+
+
+#backButton {
+    margin-left: 1%;
+    margin-right: 52%;
+    font-family: 'Bree Serif', serif;
+    font-size: 34px;
+}
+    
+    body.homepage li {
+        display: inline;
+        padding-bottom: 1.5%;
+        position: relative;
+        top: 5%;
+    }
+        
+
+        body.homepage div.content p {
+            font-size: 35px;
+            text-align: justify;
+            width: 85%;
+            line-height: 40px;
+        }
+.content  a {
+    font-family: 'Bree Serif', serif;
+    font-size: 35px;
+}
+
+footer {
+    padding-top:1.5%;
+}
+footer p {
+     border-top: solid #808080;
+     font-family: 'Indie Flower', bold;
+     font-size: 24px;
+     padding: 2% 0% 0 1%;
+}
+div.images {
+    display: table;
+    width: 100%;
+    position: absolute;
+    padding-bottom: 1.7%;
+}
+
+    div.images h2 {
+        text-align-last: center;
+    }
+    div.images, div.GameImages h2 {
+        font-size: 300%;
+    }
+
+div.images, div.GameImages footer {
+        text-align-last: left;
+    }
+
+div.images p a {
+    font-family: 'Indie Flower',Bold;
+}
+
+div.images img {
+    width: 30%;
+    margin: 1%;
+}
+p.insta {
+    font-size: 18px;
+    text-align-last:center;
+}
+
+div.images footer a {
+        font-family: 'Bree Serif', serif;
+    }
+
+div.GameImages {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    text-align-last: center;
+    padding-bottom: 1.7%;
+}
+div.GameImages img {
+    display: inline-block;
+    width: 30%;
+    margin:1.2%;
+}
+div.Sketches img:first-of-type {
+    
+    margin-left: 16.55%;
+}
+div.Sketches img {
+    display: inline-table;
+    width: 30%;
+    margin: 3%;
+    border:solid #808080 3px;
+}
+#wrap img {
+    transition: all 0.5s;
+}
+#wrap img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+
+    body.intro h1 {
+        font-size: 20px;
+        width: 47%;
+    }
+
+    body.intro nav {
+        padding: 1.5% 0 0 2.5%;
+    }
+
+    body.intro nav ul {
+        width: 46%;
+    }
+
+
+    body.intro h2 {
+        font-size: 18px;
+    }
+
+    body.intro {
+        padding: 16% 0 0 34%;
+    }
+
+    body.intro i {
+        font-size: 25px;
+    }
+
+    footer.intro {  
+        padding-top: 48%;
+    }
+    
+    footer.intro img {
+        top:80%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .homepage a {
+        font-size: 16px;  
+    }
+
+    
+    #backButton {
+        margin-right: 34%;
+        font-size: 24px;
+    }
+
+
+    body.homepage div.content p {
+        font-size: 26px;
+        text-align: left;
+        width: 95%;
+        line-height: 34px;
+    }
+
+    .content a {
+        font-size: 26px;
+    }
+
+   footer p {
+       font-size: 20px;
+        }
+
+    div.images, div.GameImages h2 {
+        font-size: 200%;
+    }
+    div.images h2{
+        text-align:center;
+        font-size:32px;
+    }
+        p.insta {
+            font-size: 16px;
+        }
+
+
+}
+
+   /**/
+@media screen and (max-width:480px) {
+
+
+    body.intro h1 {
+        margin-top:22%;
+        font-size:17px;
+        width:65%;
+       
+    }
+    body.intro {
+        margin-top: 10%;
+    }
+    body.intro nav {
+        padding-left: 10.5%;
+    }
+
+      
+
+    body.intro h2 {
+        font-size: 12px;
+    }
+
+    body.intro {
+        padding: 8% 0 0 23%;
+    }
+
+
+    footer.intro li {
+        padding-top:30%;
+        margin-left:1%;
+    }
+
+    footer.intro img {
+        display: none;
+    } 
+
+    /*~homepage~*/
+   
+
+
+ 
+  
+
+
+   
+    h1 {
+        font-size: 24px;
+        text-align-last:center;
+    }
+
+   
+    .homepage a {
+     
+        font-size: 16px;
+     
+    
+    }
+    /*div.content {
+        padding-top: 0.1%;
+        padding-bottom: 0.1%;
+        width: 500%;
+        background-color: rgba(22, 208, 208, 0.50);
+    }*/
+
+    div.content {
+        padding-left: 2%;
+    }
+
+    #backButton {
+        margin-left: 15%;
+        margin-right:15%;
+        padding:2%;
+        font-size:22px;
+       
+    }
+    nav ul {
+        border-bottom: none;
+        transition: all 0.5s ease-out;
+    }
+    
+    nav li:hover{
+        color:#000000;
+
+    }
+    nav ul:hover {
+        color: #000000;
+    }
+    body.homepage li {
+        display:  grid;
+        text-align:center;
+    }
+
+        body.homepage li a {
+            border-top: solid #808080 2px;
+            padding: 2% 0 2% 0;
+            font-size: 18px;
+        }
+    body.homepage li a:first-child {
+         border-top: none;
+    }
+    
+    body.homepage li a:last-child {
+        border-bottom: solid #808080 2px;
+    }
+     
+    body.homepage div.content p {
+        font-size: 22px;
+        text-align: left;
+        width: 94%;
+        line-height: 26px;
+    }
+
+    .content a {
+        font-size: 22px;
+    }
+
+   
+
+    div.images {
+        display: inline;
+        width: 100%;
+        position: relative;
+        padding-bottom: 1.7%;
+    }
+        
+        div.images h2 {
+            text-align-last: center;
+            font-size: 90%;
+        }
+
+    div.images, div.GameImages h2 {
+        font-size: 130%;
+    }
+
+    div.images, div.GameImages footer {
+        text-align-last: left;
+    }
+    
+   
+
+    div.images img {
+        width: 95%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+ 
+
+    p.insta {
+        font-size:14px;
+        text-align: center;
+    }
+
+ 
+
+    div.GameImages {
+        display: inline;
+        
+    }
+      
+        div.GameImages img {
+            display: inline-block;
+            width: 95%;
+            padding-right: 2%;
+            margin-left: 0;
+        }
+
+        div.GameImages img:last-child {
+            padding:0;
+            margin: 0;
+        }
+        
+    div.Sketches img:first-of-type {
+        margin-left: 9.5%;
+    }
+  
+    div.Sketches img:last-child {
+        margin: 0%;
+       
+    }
+
+    div.Sketches img {
+        display: inline;
+        margin-left: 9.5%;
+        width: 80%;
+        border: solid #808080 1.5px;
+    }
+
+
+    footer p {
+        font-size: 16px;
+        padding: 2% 0% 0 1%;
+    }
+
+    .GameImages footer  a {
+        font-size:14px;
+    }
+
+}
